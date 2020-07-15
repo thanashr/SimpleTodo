@@ -32,7 +32,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Enjoyed building the App. It was challenging to understand the Android lifecycle while completing the project.
+Enjoyed building the App. It was challenging to understand the Android lifecycle.
 
 ## License
 
