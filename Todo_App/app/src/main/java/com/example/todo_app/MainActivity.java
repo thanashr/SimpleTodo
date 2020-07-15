@@ -40,6 +40,10 @@ public class MainActivity extends AppCompatActivity {
         etItem = findViewById(R.id.etItem);
         rvItems = findViewById((R.id.rvItems));
 
+        getSupportActionBar().setTitle("  Todo App");
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.drawable.ic_assignment_black_24dp);
+
 
         loadItems();
 

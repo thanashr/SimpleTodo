@@ -23,7 +23,9 @@ public class EditActivity extends AppCompatActivity {
         etItem = findViewById(R.id.etItem);
         btnSave = findViewById(R.id.btnSave);
 
-        getSupportActionBar().setTitle("Edit Item");
+        getSupportActionBar().setTitle("  Edit Item");
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.drawable.ic_mode_edit_black_24dp);
 
         etItem.setText(getIntent().getStringExtra(MainActivity.KEY_ITEM_TEXT));
         btnSave.setOnClickListener( new View.OnClickListener(){
